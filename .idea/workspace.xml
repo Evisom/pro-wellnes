@@ -4,6 +4,8 @@
     <list default="true" id="3e470938-cc26-4935-a1ff-90142f93d82f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expert-articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/expert-articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expert-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/expert-profile.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -52,7 +55,9 @@
       <option name="presentableId" value="Default" />
       <updated>1573645427476</updated>
       <workItem from="1573645429975" duration="20083000" />
-      <workItem from="1573754317672" duration="9376000" />
+      <workItem from="1573754317672" duration="23702000" />
+      <workItem from="1574106679223" duration="176000" />
+      <workItem from="1574250860218" duration="2528000" />
     </task>
     <servers />
   </component>
@@ -64,10 +69,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/expert-profile.html</url>
+          <line>979</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

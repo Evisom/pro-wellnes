@@ -188,11 +188,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-    <link rel="dns-prefetch" href="//bbtr.siberianhealth.com"/>
-    <link rel="dns-prefetch" href="//mc.yandex.ru"/>
-    <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
-    <link rel="dns-prefetch" href="//vk.com"/>
-    <link rel="stylesheet" href="//bbtr.siberianhealth.com/local/templates/main/css/style.min.css?157044644354214">
+    <link rel="dns-prefetch" href="http://bbtr.siberianhealth.com"/>
+    <link rel="dns-prefetch" href="http://mc.yandex.ru"/>
+    <link rel="dns-prefetch" href="http://www.googletagmanager.com"/>
+    <link rel="dns-prefetch" href="http://vk.com"/>
+    <link rel="stylesheet" href="http://bbtr.siberianhealth.com/local/templates/main/css/style.min.css?157044644354214">
     <script type="text/javascript" data-skip-moving="true">
         (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () {
@@ -306,22 +306,22 @@
 <div id="panel">
 </div>
 <div class="wrapper">
-    <div class="header">
+    <div class="header" style="width: 100%; padding-right: 0px">
         <div class="header__logo">
             <a href="/ru/blogs/"> <img
-                    src="//bbtr.siberianhealth.com/bitrix/templates/main/images/logo.svg?15515318981724"
+                    src="http://bbtr.siberianhealth.com/bitrix/templates/main/images/logo.svg?15515318981724"
                     alt="Pro&#x2F;Wellness">
             </a>
         </div>
         <div class="header__sw-logo">
             <a href="https://siberianhealth.com">
-                <img src="//bbtr.siberianhealth.com/bitrix/templates/main/images/sw-logo.svg?15515318984778"
+                <img src="http://bbtr.siberianhealth.com/bitrix/templates/main/images/sw-logo.svg?15515318984778"
                      alt="Siberian wellness"> </a>
         </div>
 
         <div class="header__menu">
             <div id="bxdynamic_LkGdQn_start" style="display:none"></div>
-            <ul class="top-menu">
+            <ul class="top-menu top-menu-fix" >
 
                 <li class="top-menu__item">
                     <a class="top-menu__link" href="/ru/blogs/pitanie/">Питание</a>
@@ -351,13 +351,30 @@
                     <a class="top-menu__link" href="/ru/blogs/dom/">Дом</a>
                     <span class="top-menu__splitter"></span>
                 </li>
-                <li class="top-menu__item top-menu__item_type_search">
+                <li class="top-menu__item top-menu__item_type_searchlg top-menu__item_type_search ">
                     <form method="GET" action="/ru/blogs/" class="lookup-form">
                         <input type="text" name="q" value="" placeholder="Поиск" class="lookup-form__input">
                         <input type="submit" style="display: none;">
                         <a class="top-menu__link lookup-form__button" href="javascript:void(0)"></a>
                     </form>
+                    <label class="input input--select">
+                        <input type="hidden" value="RU">
+                        <span class="input--select__value">
+                                <img src="img/russia.png" alt=""> Россия<i class="fas fa-chevron-down"></i>
+                            </span>
+                        <ul class="input--select__dropdown">
+                            <li class="input--select__item" code="RU">
+                                <img src="img/russia.png" alt=""> Россия
+                            </li>
+                            <li class="input--select__item" code="EN">
+                                <img src="img/russia.png" alt=""> Украина
+                            </li>
+                        </ul>
+                    </label>
                 </li>
+                <!--                <li class="top-menu__item top-menu__item_type_lg-select">-->
+
+                <!--                </li>-->
             </ul>
             <div id="bxdynamic_LkGdQn_end" style="display:none"></div>
         </div>
@@ -438,7 +455,7 @@
                     </div>
                     <div class="expert__article-heading">Профиль в соц. сетях</div>
                     <div class="expert__article__sm">
-                        <div id="ea-tg" class="expert__article__sm-icon"><i class="fab fa-telegram-plane"></i></i></div>
+                        <a href="#" id="ea-tg" class="expert__article__sm-icon"><i class="fab fa-telegram-plane"></i></i></a>
                         <div id="ea-vk" class="expert__article__sm-icon"><i class="fab fa-vk"></i></div>
                         <div id="ea-gp" class="expert__article__sm-icon"><i class="fab fa-google-plus-g"></i></div>
                         <div id="ea-tw" class="expert__article__sm-icon"><i class="fab fa-twitter"></i></div>
@@ -624,13 +641,13 @@
         <div class="header">
             <div class="header__logo">
                 <a href="/ru/blogs/">
-                    <img src="//bbtr.siberianhealth.com/bitrix/templates/main/images/logo.svg?15515318981724"
+                    <img src="http://bbtr.siberianhealth.com/bitrix/templates/main/images/logo.svg?15515318981724"
                          alt="Pro&#x2F;Wellness">
                 </a>
             </div>
             <div class="header__sw-logo">
                 <a href="https://siberianhealth.com">
-                    <img src="//bbtr.siberianhealth.com/bitrix/templates/main/images/sw-logo.svg?15515318984778"
+                    <img src="http://bbtr.siberianhealth.com/bitrix/templates/main/images/sw-logo.svg?15515318984778"
                          alt="Siberian wellness">
                     <div class="header__sw-logo-text">Перейти на сайт<span></span></div>
                 </a>
@@ -667,25 +684,78 @@
                         <a class="top-menu__link" href="/ru/blogs/dom/">Дом</a>
                         <span class="top-menu__splitter">/</span>
                     </li>
-                    <li class="top-menu__item top-menu__item_type_search">
+                    <li class="top-menu__item top-menu__item_type_searchlg top-menu__item_type_search ">
                         <form method="GET" action="/ru/blogs/" class="lookup-form">
                             <input type="text" name="q" value="" placeholder="Поиск" class="lookup-form__input">
                             <input type="submit" style="display: none;">
                             <a class="top-menu__link lookup-form__button" href="javascript:void(0)"></a>
                         </form>
+                        <label class="input input--select">
+                            <input type="hidden" value="RU">
+                            <span class="input--select__value"  style="background: #262E3B; color: white">
+                                <img src="img/russia.png" alt=""> Россия<i class="fas fa-chevron-down"></i>
+                            </span>
+                            <ul class="input--select__dropdown">
+                                <li class="input--select__item" code="RU">
+                                    <img src="img/russia.png" alt=""> Россия
+                                </li>
+                                <li class="input--select__item" code="EN">
+                                    <img src="img/russia.png" alt=""> Украина
+                                </li>
+                            </ul>
+                        </label>
                     </li>
                 </ul>
                 <div id="bxdynamic_XEVOpk_end" style="display:none"></div>
             </div>
         </div>
+        <div class="os-footer-copy">
+            <div class="container-fluid lg-max">
+                <div class="row">
 
+                    <div class="col-sm-8">
+                        <a href="/ru/" class="os-footer-copy__logo">
+                            <svg>
+                                <use xlink:href="/shopen/web/bundles/shopenapp/themes/purple/assets/img/sprites/svg/sprite.symbol.svg#logo_snowflake"></use>
+                            </svg>
+                        </a>
+                        <div class="os-footer-copy__txt">
+                            <p class="relative"><span class="os-footer-copy__copyr">©</span> 1996 - 2019                                ООО Международная компания «Сибирское здоровье». Все права защищены.
+                            </p>
+                            <p>
+                                Воспроизведение материалов данного сайта возможно при условии обязательного размещения активной ссылки на www.siberianhealth.com.
+                            </p>
+                            <p>Вся бизнес-информация, представленная на данном сайте, является недействительной для Республики Узбекистан</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div id="bxdynamic_g8taYv_start" style="display:none"></div>    <ul class="os-footer-copy__nav">
+                        <li class="os-footer-copy__nav-itm">
+                            <a target="_blank" href="/ru/blogs/karta-sayta/" class="os-footer-copy__nav-lnk">Карта сайта</a>
+                        </li>
+                        <li class="os-footer-copy__nav-itm">
+                            <a target="_blank" href="/ru/shop/page/user-agreement/" class="os-footer-copy__nav-lnk">Пользовательское соглашение</a>
+                        </li>
+                        <li class="os-footer-copy__nav-itm">
+                            <a target="_blank" href="/ru/shop/page/about-privacy/" class="os-footer-copy__nav-lnk">Политика конфиденциальности</a>
+                        </li>
+                        <li class="os-footer-copy__nav-itm">
+                            <a target="_blank" href="/ru/shop/page/purchase-terms/" class="os-footer-copy__nav-lnk">Условия покупки</a>
+                        </li>
+                    </ul>
+                        <div id="bxdynamic_g8taYv_end" style="display:none"></div>                    </div>
+                    <div style="clear: both"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="overlay">
     <div class="header">
         <div class="header__logo">
             <a href="/ru/blogs/">
-                <img src="//bbtr.siberianhealth.com/local/templates/main/images/logo-white.svg?15583291561724"
+                <img src="http://bbtr.siberianhealth.com/local/templates/main/images/logo-white.svg?15583291561724"
                      alt="Pro/Wellness">
             </a>
         </div>
@@ -728,7 +798,7 @@
         <div class="header__spacer"></div>
         <div class="header__sw-logo">
             <a href="https://siberianhealth.com">
-                <img src="//bbtr.siberianhealth.com/bitrix/templates/main/images/sw-logo.svg?15515318984778"
+                <img src="http://bbtr.siberianhealth.com/bitrix/templates/main/images/sw-logo.svg?15515318984778"
                      alt="Siberian wellness">
             </a>
         </div>
@@ -768,23 +838,22 @@ if (!window.BX.message) window.BX.message = function (mess) {
     'SITE_DIR': '/'
 });</script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/bitrix/cache/js/s1/main/kernel_main/kernel_main_v1.js?1570616619342699"></script>
+        src="http://bbtr.siberianhealth.com/bitrix/cache/js/s1/main/kernel_main/kernel_main_v1.js?1570616619342699"></script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/bitrix/cache/js/s1/main/kernel_main_polyfill_promise/kernel_main_polyfill_promise_v1.js?15706076932506"></script>
+        src="http://bbtr.siberianhealth.com/bitrix/cache/js/s1/main/kernel_main_polyfill_promise/kernel_main_polyfill_promise_v1.js?15706076932506"></script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/bitrix/js/main/loadext/loadext.min.js?1550515848810"></script>
+        src="http://bbtr.siberianhealth.com/bitrix/js/main/loadext/loadext.min.js?1550515848810"></script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/bitrix/js/main/loadext/extension.min.js?15505158481304"></script>
+        src="http://bbtr.siberianhealth.com/bitrix/js/main/loadext/extension.min.js?15505158481304"></script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/bitrix/js/main/core/core_db.js?157019017210247"></script>
+        src="http://bbtr.siberianhealth.com/bitrix/js/main/core/core_db.js?157019017210247"></script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/bitrix/js/main/core/core_frame_cache.min.js?155051582111334"></script>
-<script type="text/javascript">BX.setJSList(['//bbtr.siberianhealth.com/bitrix/js/main/core/core.js?1558326150123541', '//bbtr.siberianhealth.com/bitrix/js/main/core/core_promise.js?15583262015220', '//bbtr.siberianhealth.com/bitrix/js/main/core/core_ajax.js?155832620141997', '//bbtr.siberianhealth.com/bitrix/js/main/json/json2.min.js?15505158493467', '//bbtr.siberianhealth.com/bitrix/js/main/core/core_ls.js?155051582010430', '//bbtr.siberianhealth.com/bitrix/js/main/core/core_fx.js?155051581916888', '//bbtr.siberianhealth.com/bitrix/js/main/core/core_popup.js?155832620176073', '//bbtr.siberianhealth.com/bitrix/js/main/core/core_window.js?155051582097989', '//bbtr.siberianhealth.com/bitrix/js/main/session.js?15505158323642', '//bbtr.siberianhealth.com/bitrix/js/main/date/main.date.js?155051584929748', '//bbtr.siberianhealth.com/bitrix/js/main/core/core_date.js?155051582033969', '//bbtr.siberianhealth.com/bitrix/js/main/utils.js?155051583230973', '//bbtr.siberianhealth.com/bitrix/js/main/polyfill/promise/js/promise.js?15505158188241', '//bbtr.siberianhealth.com/bitrix/templates/.default/components/bitrix/catalog.comments/.default/script.js?15505159877355', '//bbtr.siberianhealth.com/local/templates/main/js/viewport-units-buggyfill.min.js?15701871575375']); </script>
-<script type="text/javascript">BX.setCSSList(['//bbtr.siberianhealth.com/bitrix/js/main/core/css/core.css?15505158213963', '//bbtr.siberianhealth.com/bitrix/js/main/core/css/core_popup.css?155832616217731', '//bbtr.siberianhealth.com/bitrix/js/main/core/css/core_date.css?155051582110289', '//bbtr.siberianhealth.com/bitrix/templates/.default/components/bitrix/catalog.comments/.default/style.css?15505159874569', '//bbtr.siberianhealth.com/bitrix/components/bitrix/socserv.auth.form/templates/flat/style.css?15505160982659', '//bbtr.siberianhealth.com/bitrix/components/bitrix/blog/templates/.default/style.css?157060687133465', '//bbtr.siberianhealth.com/bitrix/components/bitrix/blog/templates/.default/themes/green/style.css?15706068711140', '//bbtr.siberianhealth.com/bitrix/templates/.default/components/bitrix/catalog.comments/.default/themes/blue/style.css?155051598724']); </script>
+        src="http://bbtr.siberianhealth.com/bitrix/js/main/core/core_frame_cache.min.js?155051582111334"></script>
+<script type="text/javascript">BX.setCSSList(['http://bbtr.siberianhealth.com/bitrix/js/main/core/css/core.css?15505158213963', 'http://bbtr.siberianhealth.com/bitrix/js/main/core/css/core_popup.css?155832616217731', 'http://bbtr.siberianhealth.com/bitrix/js/main/core/css/core_date.css?155051582110289', 'http://bbtr.siberianhealth.com/bitrix/templates/.default/components/bitrix/catalog.comments/.default/style.css?15505159874569', 'http://bbtr.siberianhealth.com/bitrix/components/bitrix/socserv.auth.form/templates/flat/style.css?15505160982659', 'http://bbtr.siberianhealth.com/bitrix/components/bitrix/blog/templates/.default/style.css?157060687133465', 'http://bbtr.siberianhealth.com/bitrix/components/bitrix/blog/templates/.default/themes/green/style.css?15706068711140', 'http://bbtr.siberianhealth.com/bitrix/templates/.default/components/bitrix/catalog.comments/.default/themes/blue/style.css?155051598724']); </script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/bitrix/cache/js/s1/main/template_ef56e37dd07c56db068721ae1dc3388b/template_ef56e37dd07c56db068721ae1dc3388b_v1.js?15706076935690"></script>
+        src="http://bbtr.siberianhealth.com/bitrix/cache/js/s1/main/template_ef56e37dd07c56db068721ae1dc3388b/template_ef56e37dd07c56db068721ae1dc3388b_v1.js?15706076935690"></script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/bitrix/cache/js/s1/main/page_f5eba8e282b245ddb0a77c277cd2cea6/page_f5eba8e282b245ddb0a77c277cd2cea6_v1.js?15706076936429"></script>
+        src="http://bbtr.siberianhealth.com/bitrix/cache/js/s1/main/page_f5eba8e282b245ddb0a77c277cd2cea6/page_f5eba8e282b245ddb0a77c277cd2cea6_v1.js?15706076936429"></script>
 <script type="text/javascript">var _ba = _ba || [];
 _ba.push(["aid", "6a82b2cde98f940d00c9d3112cdd2c6e"]);
 _ba.push(["host", "ru.siberianhealth.com"]);
@@ -839,7 +908,7 @@ _ba.push(["host", "ru.siberianhealth.com"]);
     });
 </script>
 <script type="text/javascript"
-        src="//bbtr.siberianhealth.com/local/templates/main/js/main.min.js?1570187512218592"></script>
+        src="http://bbtr.siberianhealth.com/local/templates/main/js/main.min.js?1570187512218592"></script>
 <script>
     /*  const images = document.querySelectorAll('[data-mysrc]');
       const config = {
@@ -982,10 +1051,23 @@ _ba.push(["host", "ru.siberianhealth.com"]);
         })
     }
 </script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script>
+
+    $('.input--select').on('click', function(e) {
+        if ($(this).find('input').is(':disabled')) {
+            return;
+        }
+        $(this).toggleClass('is-opened');
+    });
+    $('.input--select__item').on('click', function(e) {
+        var viewValue = $(this).html().trim();
+        var value = $(this).attr('code') || viewValue;
+        $(this).parent().siblings('.input--select__value').html(viewValue);
+        $(this).parent().siblings('input[type="hidden"]').val(value);
+    });
 
     var $status = $('#sm__slide-counter');
 
