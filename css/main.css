@@ -809,3 +809,17 @@
     margin-bottom: 200px;
 }
 
+/* 25.11 */
+.expert__themes-element {
+    text-decoration: none;
+    color: inherit;
+}
+
+.expert__sections a, .similarContent__grid a, .experts__grid a, .expert__article a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.slick-track {
+    margin-left: 0 !important;
+}
